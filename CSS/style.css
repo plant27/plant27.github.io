@@ -1,0 +1,245 @@
+/* General Styles */
+body {margin: 0px}
+
+/* Nav Styles */
+nav {
+    background-color: pink;
+    border: 10px solid; 
+    border-color: black; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+nav p, nav a {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+}
+
+nav a {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: brown;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+    text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+    background-color: pink; 
+    border: 10px solid; border-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+}
+
+/* Splash Section */
+.splash {
+    float: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 10px solid;
+    border-color: darkred;
+}
+
+.splash h1 {
+    font-family: "Anton SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: maroon;
+}
+
+.splash img {
+    border: 10px ridge;
+    border-color: red
+}
+
+.splash #address{
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black
+}
+
+.splash #tagline{
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #555555
+}
+
+/* Horizontal Rules */
+hr {
+    border: 10px dashed;
+    border-color: brown;
+    border-radius: 25%;
+    border-width: 10px;
+    width: 100%;
+}
+
+/* Sections */
+section {
+    border: 5px dashed;
+    border-color: black;
+    margin: 50px;
+    background-color: white;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: red;
+}
+
+/* Paragraph Styles */
+section p {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+}
+
+/* link styles */
+section a {
+    color:red;
+    text-decoration: none;
+}
+section a:hover {
+    color:pink;
+    text-decoration: none;
+}
+
+/* List Styles */
+ul {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    margin-left: 10px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    margin-left: 10px;
+}
+dl dt{
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 600;
+    font-style: normal ;
+    color: black;
+}
+dl dd{
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #555555;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: rgb(246, 211, 217);
+    border: 10px dashed;
+    border-color: red;
+    filter: drop-shadow(0px 10px 4px #000000);
+}
+
+.card img {
+    height: 250px;
+}
+
+.card h3 {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 600;
+    font-style: normal ;
+    color: black;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+    justify-items: center;
+}
+
+form {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    display: grid;
+    font-size: 25px;
+}
+
+form input, form textarea {
+    background-color: lightgray;
+    border-width: 5px;
+    border-color: black;
+    width: 400px;
+}
+
+form input:focus, form textarea:focus {
+    background-color: white;
+}
+
+form button {
+    margin: 10px;
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    border-width: 8px;
+    border-color: black;
+}
+
+form button:hover {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: red;
+    border-width: 8px;
+    border-color: red;
+}
+
+/* Thank you style */
